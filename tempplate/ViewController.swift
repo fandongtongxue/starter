@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func searchBtnAction(_ sender: UIButton) {
-        let searchVC = SearchVC()
+        let searchVC = LoginVC()
         let nav = BaseNavigationC(rootViewController: searchVC)
         present(nav, animated: true, completion: nil)
     }

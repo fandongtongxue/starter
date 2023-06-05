@@ -12,6 +12,7 @@
 		DC63DAEB2A27216C00B01775 /* SearchVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC63DAE72A27216C00B01775 /* SearchVM.swift */; };
 		DC63DAEC2A27216C00B01775 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC63DAE82A27216C00B01775 /* SearchVC.swift */; };
 		DC63DAED2A27216C00B01775 /* SearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC63DAE92A27216C00B01775 /* SearchModel.swift */; };
+		DCCA1F632A2DCBD7002E0D53 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCA1F622A2DCBD7002E0D53 /* LoginVC.swift */; };
 		DCE8624D2A174FA900F1F6A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE8624C2A174FA900F1F6A1 /* AppDelegate.swift */; };
 		DCE8624F2A174FA900F1F6A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE8624E2A174FA900F1F6A1 /* SceneDelegate.swift */; };
 		DCE862512A174FA900F1F6A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE862502A174FA900F1F6A1 /* ViewController.swift */; };
@@ -26,6 +27,7 @@
 		DC63DAE72A27216C00B01775 /* SearchVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVM.swift; sourceTree = "<group>"; };
 		DC63DAE82A27216C00B01775 /* SearchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
 		DC63DAE92A27216C00B01775 /* SearchModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchModel.swift; sourceTree = "<group>"; };
+		DCCA1F622A2DCBD7002E0D53 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		DCE862492A174FA900F1F6A1 /* tempplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tempplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCE8624C2A174FA900F1F6A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCE8624E2A174FA900F1F6A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +62,14 @@
 			path = Demo;
 			sourceTree = "<group>";
 		};
+		DCCA1F612A2DCAE5002E0D53 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				DCCA1F622A2DCBD7002E0D53 /* LoginVC.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		DCE862402A174FA900F1F6A1 = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +90,7 @@
 		DCE8624B2A174FA900F1F6A1 /* tempplate */ = {
 			isa = PBXGroup;
 			children = (
+				DCCA1F612A2DCAE5002E0D53 /* Login */,
 				DC63DAE52A27216C00B01775 /* Demo */,
 				DCE862AD2A1765AC00F1F6A1 /* Network */,
 				DCE8624C2A174FA900F1F6A1 /* AppDelegate.swift */,
@@ -190,6 +201,7 @@
 				DC63DAEA2A27216C00B01775 /* SearchCell.swift in Sources */,
 				DC63DAED2A27216C00B01775 /* SearchModel.swift in Sources */,
 				DCE8624D2A174FA900F1F6A1 /* AppDelegate.swift in Sources */,
+				DCCA1F632A2DCBD7002E0D53 /* LoginVC.swift in Sources */,
 				DCE862A42A17653100F1F6A1 /* RxFDNetwork.swift in Sources */,
 				DCE8624F2A174FA900F1F6A1 /* SceneDelegate.swift in Sources */,
 				DC63DAEC2A27216C00B01775 /* SearchVC.swift in Sources */,
